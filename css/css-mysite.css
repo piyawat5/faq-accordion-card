@@ -1,0 +1,102 @@
+body {
+  position: relative;
+  margin: 0;
+}
+main {
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.main-container {
+  min-height: 30rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  background-image: url("../images/illustration-woman-online-desktop.svg"),
+    url("../images/bg-pattern-desktop.svg");
+  background-size: , 75% 180%;
+  background-repeat: no-repeat;
+  background-position: -5rem 3rem, -36rem -19rem;
+
+  margin-left: 2rem;
+  width: 65rem;
+  display: flex;
+  gap: 3.5rem;
+}
+
+.box {
+  padding-top: 0rem;
+  margin-bottom: 0rem;
+  padding-bottom: 0.5rem;
+  /* border-top: groove; */
+  /* border-bottom: 2px groove; */
+  display: flex;
+  position: relative;
+}
+
+.faq:hover {
+  color: orange;
+}
+.faq {
+  color: hsl(237, 12%, 33%);
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+.test1 {
+  position: absolute;
+  left: 24rem;
+  top: 0.7rem;
+}
+.test2 {
+  position: absolute;
+  left: 24rem;
+  top: 0.7rem;
+  background-color: #fff;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+.boxcol {
+  font-family: "Kumbh Sans", sans-serif;
+  color: hsl(240, 6%, 50%);
+  font-weight: 400;
+  font-size: 80%;
+  margin-top: 0rem;
+  padding: 0rem 0rem 0.5rem;
+
+  /* border-bottom: 2px groove; */
+}
+.left-container {
+  width: 472px;
+  height: 395px;
+  position: relative;
+}
+.img-woman {
+  position: absolute;
+  right: 3rem;
+}
+.right-container {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+
+  width: 25rem;
+}
+h1 {
+  margin: 3rem 0rem 2rem;
+}
+p {
+  margin-bottom: 0.3rem;
+}
+
+.img-box {
+  position: absolute;
+  top: 11.5rem;
+  right: 23.5rem;
+}
+hr {
+  border-top: groove;
+  margin: 0rem;
+}

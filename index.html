@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/css-mysite.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="main-container">
+        <div class="left-container">
+          <img
+            class="img-box"
+            src="../images/illustration-box-desktop.svg"
+            alt="illustrationBox"
+          />
+        </div>
+        <div class="right-container">
+          <h1>FAQ</h1>
+          <p>
+            <a
+              class="faq"
+              data-bs-toggle="collapse"
+              href="#collapseExample1"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample1"
+            >
+              <div class="box">
+                How many team members can I invite?
+                <img class="test1" src="images\icon-arrow-down.svg" alt="" />
+                <div class="123">
+                  <img
+                    class="collapse test2"
+                    id="collapseExample1"
+                    src="images\icon-arrow-down.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample1">
+            <div class="card-body boxcol">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </div>
+          </div>
+          <hr />
+
+          <p>
+            <a
+              class="faq"
+              data-bs-toggle="collapse"
+              href="#collapseExample2"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample2"
+            >
+              <div class="box">
+                What is the maximum file upload size?
+                <img class="test1" src="images\icon-arrow-down.svg" alt="" />
+                <div class="123">
+                  <img
+                    class="collapse test2"
+                    id="collapseExample2"
+                    src="images\icon-arrow-down.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample2">
+            <div class="card-body boxcol">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </div>
+          </div>
+          <hr />
+          <p>
+            <a
+              class="faq"
+              data-bs-toggle="collapse"
+              href="#collapseExample3"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample3"
+            >
+              <div class="box">
+                How do I reset my password?
+                <img class="test1" src="images\icon-arrow-down.svg" alt="" />
+                <div class="123">
+                  <img
+                    class="collapse test2"
+                    id="collapseExample3"
+                    src="images\icon-arrow-down.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample3">
+            <div class="card-body boxcol">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </div>
+          </div>
+          <hr />
+          <p>
+            <a
+              class="faq"
+              data-bs-toggle="collapse"
+              href="#collapseExample4"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample4"
+            >
+              <div class="box">
+                Can I cancel my subscription?
+                <img class="test1" src="images\icon-arrow-down.svg" alt="" />
+                <div class="123">
+                  <img
+                    class="collapse test2"
+                    id="collapseExample4"
+                    src="images\icon-arrow-down.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample4">
+            <div class="card-body boxcol">
+              Yes! Send us a message and we’ll process your request no questions
+              asked.
+            </div>
+          </div>
+          <hr />
+          <p>
+            <a
+              class="faq"
+              data-bs-toggle="collapse"
+              href="#collapseExample5"
+              role="button"
+              aria-expanded="false"
+              aria-controls="collapseExample5"
+            >
+              <div class="box">
+                Do you provide additional support?
+                <img class="test1" src="images\icon-arrow-down.svg" alt="" />
+                <div class="123">
+                  <img
+                    class="collapse test2"
+                    id="collapseExample5"
+                    src="images\icon-arrow-down.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </a>
+          </p>
+          <div class="collapse" id="collapseExample5">
+            <div class="card-body boxcol">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"
+  ></script>
+</html>
