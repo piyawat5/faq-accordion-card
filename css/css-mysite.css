@@ -1,10 +1,10 @@
 body {
-  position: relative;
   margin: 0;
 }
 main {
+  font-family: "Kumbh Sans", sans-serif;
   background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-  position: relative;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,8 @@ main {
   color: orange;
 }
 .faq {
-  color: hsl(237, 12%, 33%);
+  font-weight: 400;
+  color: hsl(240, 2%, 9%);
   text-decoration: none;
   display: flex;
   position: relative;
@@ -81,10 +82,11 @@ main {
   /* display: flex;
   flex-direction: column;
   justify-content: center; */
-
+  padding-bottom: 2rem;
   width: 25rem;
 }
 h1 {
+  font-weight: 700;
   margin: 3rem 0rem 2rem;
 }
 p {
@@ -99,4 +101,106 @@ p {
 hr {
   border-top: groove;
   margin: 0rem;
+}
+
+@media (max-width: 1119px) {
+  .main-container {
+    min-height: 30rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    background-image: url("../images/illustration-woman-online-desktop.svg"),
+      url("../images/bg-pattern-desktop.svg");
+    background-size: , 75% 180%;
+    background-repeat: no-repeat;
+    background-position: -5rem 3rem, -36rem -19rem;
+
+    margin-left: 2rem;
+    width: 45rem;
+    display: flex;
+    gap: 1rem;
+  }
+  .right-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding-bottom: 2rem;
+    width: 15rem;
+  }
+  .test1 {
+    position: absolute;
+    left: 16rem;
+    top: 0.7rem;
+  }
+  .test2 {
+    position: absolute;
+    left: 16rem;
+    top: 0.7rem;
+    background-color: #fff;
+    transform: rotate(180deg);
+    z-index: 2;
+  }
+  .left-container {
+    width: 400px;
+    height: 395px;
+    position: relative;
+  }
+  .img-box {
+    position: absolute;
+    top: 11.5rem;
+    right: 18.5rem;
+  }
+}
+@media (max-width: 760px) {
+  .main-container {
+    background-image: url();
+    background-image: url("../images/bg-pattern-desktop.svg");
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: 2.6rem -6.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    margin-top: 5rem;
+    margin-left: 0rem;
+  }
+  .right-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    padding-bottom: 2rem;
+    width: 14rem;
+  }
+  .test1 {
+    position: absolute;
+    left: 14rem;
+    top: 0.7rem;
+  }
+  .test2 {
+    position: absolute;
+    left: 14rem;
+    top: 0.7rem;
+    background-color: #fff;
+    transform: rotate(180deg);
+    z-index: 2;
+  }
+  .img-box {
+    width: 0;
+    position: absolute;
+  }
+  .left-container {
+    background-image: url("../images/illustration-woman-online-mobile.svg");
+    background-repeat: no-repeat;
+
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 22.5rem;
+  }
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    margin: 8rem 0rem 2rem;
+  }
 }
